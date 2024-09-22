@@ -15,7 +15,6 @@ class SpotifyContent {
         },
       }
     );
-
     let spotify = new SpotifyContent();
     spotify.token = response.data.access_token;
     return spotify;
